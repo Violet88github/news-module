@@ -1,0 +1,38 @@
+{
+    "name": "violet88github/violet88-news-module",
+    "description": "Simple News Module for Silverstripe",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "Violet88",
+        "Silverstripe",
+        "CMS",
+        "News",
+        "Module"
+    ],
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/framework": "^4.0",
+        "silverstripe/admin": "^1.0",
+        "silverstripe/lumberjack": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Violet88Github\\News-Module\\": "src/",
+            "Violet88Github\\News-Module\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "expose": [
+            "client/dist"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
