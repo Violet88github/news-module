@@ -3,18 +3,6 @@ A useful module to add a generic news module to your project.
 
 This readme contains descriptions of the parts of this module base you should customise to meet you own module needs.
 
-
-## ToDo
-- Update the module's `composer.json` with your requirements and package name
-- Update (or remove) `package.json` with your requirements and package name. Run `yarn` (or remove `yarn.lock`) to 
-ensure dependencies resolve correctly
-- Clear the git history by running `rm -rf .git && git init`
-- Add and push to a VCS repository
-- Either [publish](https://getcomposer.org/doc/02-libraries.md#publishing-to-packagist) the module on packagist.org, or add a [custom repository](https://getcomposer.org/doc/02-libraries.md#publishing-to-a-vcs) to your main `composer.json`
-- Require the module in your main `composer.json`
-- Start developing your module!
-
-
 ## Requirements
   * to be continued...
 
