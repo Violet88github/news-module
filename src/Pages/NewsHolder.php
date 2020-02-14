@@ -3,7 +3,7 @@
 namespace {
   use SilverStripe\Lumberjack\Model\Lumberjack;
 
-  class NewsRaceHolder extends Page {
+  class NewsHolder extends Page {
     //private static $icon = 'contact-page/icons/phone.png';
     private static $singular_name = "News Overview";
     private static $description = "Holder page for news articles";
