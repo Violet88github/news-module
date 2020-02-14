@@ -9,7 +9,7 @@ This readme contains descriptions of the parts of this module base you should cu
 
 ## Installation
 ```
-composer require violet88github/violet88-news-module 4.x-dev
+composer require violet88github/news-module dev-master
 ```
 
 
